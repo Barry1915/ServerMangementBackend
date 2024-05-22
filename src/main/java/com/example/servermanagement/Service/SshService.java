@@ -16,10 +16,10 @@ import java.util.List;
 @Service
 public class SshService {
     private final String host = "";
-    private final int port = 1;
+    private final int port = ;
     private final String user = "";
-    private final String password = ""; // 替换为你的密码
-    private String remoteFilePath = "/home/zouyinan/syslog";
+    private final String password = ""; // 替换为你的密码 // 替换为你的密码
+    private String remoteFilePath = "";
 
 
     public List<SyslogMessage> readRemoteFile_v2() throws JSchException, SftpException {
